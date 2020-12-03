@@ -1,0 +1,44 @@
+body{
+    background-color: #f5d9df;
+    font-family: "Nunito", sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    
+}
+
+footer{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 800px;
+    padding-top: 30px;
+    background-color: #282d33;
+    margin-left:-8px;
+    margin-right:-9px;
+    padding-bottom: 10px;
+   
+}
+.album_länk{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.album_länk:hover{
+    color:#dae7f7;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.premium_btn{
+    margin-top: 10px;
+    color: black;
+    background-color: lavenderblush;
+    border-radius: 8px;
+}
+.premium_btn:hover{
+    color:#4E241B;
+}
