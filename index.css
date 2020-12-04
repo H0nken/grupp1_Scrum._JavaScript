@@ -1,7 +1,3 @@
-body {
-    background-color: #696969;
-}
-
 .photos1, .photos2, .photos3 {
     display: flex;
     flex-direction: row;
@@ -20,37 +16,52 @@ body img:hover {
     width: auto;
 }
 
-h1 {
+body{
+    background-color: #f5d9df;
+    font-family: "Nunito", sans-serif;
+    
+ 
+}
+h1{
+    text-align: center;
     color: white;
-    position: absolute;
+    font-weight: 100;
+    font-size: 40px;
+    
 }
 
-/*
-.replace {
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+footer{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 800px;
+    padding-top: 30px;
+    background-color: #282d33;
+    margin-left:-8px;
+    margin-right:-9px;
+    padding-bottom: 10px; 
+   
+    
+   
+}
+.album_link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  
 }
 
-.remove {
-    bottom: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.album_link:hover{
+    color:#dae7f7;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
-.previous, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    color: white;
-    padding: 15px;
+.premium_btn{
+    margin-top: 10px;
+    color: black;
+    background-color: lavenderblush;
+    border-radius: 8px;
 }
-
-.previous {
-    left: 0;
+.premium_btn:hover{
+    color:#4E241B;
 }
-
-.next {
-    right: 0;
-}
-*/
