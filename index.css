@@ -1,0 +1,56 @@
+body {
+    background-color: #696969;
+}
+
+.photos1, .photos2, .photos3 {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 100%;
+}
+
+body img {
+    height: 640px;
+    width: 320px;
+    object-fit: cover;
+    margin: 50px 0 0 2%;
+}
+
+body img:hover {
+    width: auto;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+}
+
+/*
+.replace {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.remove {
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    color: white;
+    padding: 15px;
+}
+
+.previous {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+*/
