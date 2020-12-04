@@ -1,11 +1,14 @@
 body{
     background-color: #f5d9df;
     font-family: "Nunito", sans-serif;
+    
+ 
 }
 h1{
     text-align: center;
     color: white;
     font-weight: 100;
+    font-size: 40px;
     
 }
 
@@ -17,17 +20,19 @@ footer{
     background-color: #282d33;
     margin-left:-8px;
     margin-right:-9px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
+   
+    
    
 }
-.album_länk{
+.album_link{
   color: white;
   background-color: transparent;
   text-decoration: none;
   
 }
 
-.album_länk:hover{
+.album_link:hover{
     color:#dae7f7;
     background-color: transparent;
     text-decoration: underline;
