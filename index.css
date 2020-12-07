@@ -1,67 +1,67 @@
-.photos1, .photos2, .photos3 {
-    display: flex;
-    flex-direction: row;
-    height: 700px;
-    width: 100%;
+.photos1,
+.photos2,
+.photos3 {
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  width: 100%;
 }
 
 body img {
-    height: 640px;
-    width: 320px;
-    object-fit: cover;
-    margin: 50px 0 0 2%;
+  height: 640px;
+  width: 320px;
+  object-fit: cover;
+  margin: 50px 0 0 2%;
 }
 
 body img:hover {
-    width: auto;
+  width: auto;
 }
 
-body{
-    background-color: #f5d9df;
-    font-family: "Nunito", sans-serif;
-    
- 
+body {
+  background-color: #f5d9df;
+  font-family: "Nunito", sans-serif;
 }
-h1{
-    text-align: center;
-    color: white;
-    font-weight: 100;
-    font-size: 40px;
-    
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
 }
 
-footer{
-    border: 2px solid black;
-    text-align: center;
-    margin-top: 800px;
-    padding-top: 30px;
-    background-color: #282d33;
-    margin-left:-8px;
-    margin-right:-9px;
-    padding-bottom: 10px; 
-   
-    
-   
+footer {
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 800px;
+  padding-top: 30px;
+  background-color: #282d33;
+  margin-left: -8px;
+  margin-right: -9px;
+  padding-bottom: 10px;
 }
-.album_link{
+.album_link {
   color: white;
   background-color: transparent;
   text-decoration: none;
-  
 }
 
-.album_link:hover{
-    color:#dae7f7;
-    background-color: transparent;
-    text-decoration: underline;
+.album_link:hover {
+  color: #dae7f7;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-.premium_btn{
-    margin-top: 10px;
-    color: black;
-    background-color: lavenderblush;
-    border-radius: 8px;
+.premium_btn {
+  margin-top: 10px;
+  color: black;
+  background-color: lavenderblush;
+  border-radius: 8px;
 }
-.premium_btn:hover{
-    color:#4E241B;
+.premium_btn:hover {
+  color: #4e241b;
+}
+
+.btnRemoveOne:hover {
+  background-color: #f44336;
+  color: white;
 }
