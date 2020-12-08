@@ -7,10 +7,10 @@ let btnAlbumTwo1 = document.getElementById("button2.1");
 let btnAlbumTwo2 = document.getElementById("button2.2");
 let btnAlbumTwo3 = document.getElementById("button2.3");
 let btnAlbumTwo4 = document.getElementById("button2.4");
-let btnAlbumTwo5 = document.getElementById("button2.4");
+let btnAlbumTwo5 = document.getElementById("button2.5");
 
 //ref to all images
-let image = document.getElementsByTagName("img");
+let imagesOfAlbum2 = document.getElementsByClassName("albumTwo");
 
 
 
@@ -75,23 +75,23 @@ document.querySelector("#myFileInput").addEventListener("change", function(){
 
    //buttons for album two
    btnAlbumTwo1.onclick = function(){  
-    console.log(image[2]);
+    console.log(imagesOfAlbum2[0]);
       
    }
    btnAlbumTwo2.onclick = function(){  
-    console.log(image[3]);
+    console.log(imagesOfAlbum2[1]);
       
    }
    btnAlbumTwo3.onclick = function(){  
-    console.log(image[4]);
+    console.log(imagesOfAlbum2[2]);
       
    }
    btnAlbumTwo4.onclick = function(){  
-    console.log(image[5]);
+    console.log(imagesOfAlbum2[3]);
       
    }
    btnAlbumTwo5.onclick = function(){  
-    console.log(image[6]);
+    console.log(imagesOfAlbum2[4]);
       
    }
 
