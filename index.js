@@ -2,6 +2,22 @@
 let btnRemoveAlbumOne = document.getElementById("btnRemoveAlbumOne");
 let btnUpload = document.getElementById("uploadOne");
 
+//buttons for all images in album 2
+let btnAlbumTwo1 = document.getElementById("button2.1");
+let btnAlbumTwo2 = document.getElementById("button2.2");
+let btnAlbumTwo3 = document.getElementById("button2.3");
+let btnAlbumTwo4 = document.getElementById("button2.4");
+let btnAlbumTwo5 = document.getElementById("button2.4");
+
+//ref to all images
+let image = document.getElementsByTagName("img");
+
+
+
+
+
+
+
 
 
 //file-input
@@ -55,5 +71,31 @@ document.querySelector("#myFileInput").addEventListener("change", function(){
     location.reload();
       
    }
+
+
+   //buttons for album two
+   btnAlbumTwo1.onclick = function(){  
+    console.log(image[2]);
+      
+   }
+   btnAlbumTwo2.onclick = function(){  
+    console.log(image[3]);
+      
+   }
+   btnAlbumTwo3.onclick = function(){  
+    console.log(image[4]);
+      
+   }
+   btnAlbumTwo4.onclick = function(){  
+    console.log(image[5]);
+      
+   }
+   btnAlbumTwo5.onclick = function(){  
+    console.log(image[6]);
+      
+   }
+
+   
+   
 
 
