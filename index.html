@@ -1,85 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>Mina Minnen</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h1>Mina Minnen</h1>
 
-    
-    
+    <br />
 
+    <br />
+   <div class="albumHeaderDiv"> 
+    <b class="albumOneHeader">Album one</b> <textarea class="albumTextInput" rows="6" cols="50" placeholder="About this album"></textarea><br />
+    <input type="file" type="button" id="myFileInput" />
     <br>
+     <button type="button" id="uploadOne">Upload!</button>
+    </div>
     
-    <br>
-    
-   
-        
-       <b>Album one</b> <br>
-       <input type="file" type="button" id="myFileInput"><br>
-       <button type="button" id="uploadOne" >Upload!</button>
-       <!-- <button type="button"  id="btnRemoveFirst">Remove the second image from your first album</button>-->
-        
-        
-   
-       
-        
-        
-        <div id="photos1" class="albumOne">
-    
-        </div>
-        <button type="button" class="btnRemoveOne" id="btnRemoveAlbumOne" >Remove your first album!</button><br><br>
-        
 
-        
-         <div id="photos2">
-            <img class="albumTwo" src="img/img1.jpg">
-            <button id="button2.1">Upload/remove</button>
-            <img class="albumTwo" src="img/img1.jpg">
-            <button id="button2.2">Upload/remove</button>
-            <img class="albumTwo" src="img/img1.jpg">
-            <button id="button2.3">Upload/remove</button>
-            <img class="albumTwo" src="img/img1.jpg">
-            <button id="button2.4">Upload/remove</button>
-            <img class="albumTwo" src="img/img1.jpg">
-            <button id="button2.5">Upload/remove</button>
-    <!--        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+    <div id="photos1" class="albumOne"></div>
+    
+    
+    <button type="button" class="btnRemoveOne" id="btnRemoveAlbumOne">
+      Remove your first album!</button>
+      <div class="borderDiv"></div>
+    <br /><br />
+
+
+
+    <div class="albumHeaderDiv" > 
+        <b class="albumOneHeader">Album two</b>
+        <textarea class="albumTextInput" rows="6" cols="50" placeholder="About this album"></textarea> <br />
+    </div>
+    <div id="photos2" >
+      <img class="albumTwo" src="img/img1.jpg" />
+      <button id="button2.1">Upload/remove</button>
+      <img class="albumTwo" src="img/img1.jpg" />
+      <button id="button2.2">Upload/remove</button>
+      <img class="albumTwo" src="img/img1.jpg" />
+      <button id="button2.3">Upload/remove</button>
+      <img class="albumTwo" src="img/img1.jpg" />
+      <button id="button2.4">Upload/remove</button>
+      <img class="albumTwo" src="img/img1.jpg" />
+      <button id="button2.5">Upload/remove</button>
+      <!--        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
-        </div>
-        <div id="photos3">
-            <img src="img/img1.jpg">
-            <img src="img/img1.jpg">
-            <img src="img/img1.jpg">
-            <img src="img/img1.jpg">
-            <img src="img/img1.jpg">
-    <!--        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+    </div>
+    <div class="borderDiv"></div>
+    <br /><br />
+
+
+    <div id="photos3">
+      
+      <!--        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
-        </div>
+    </div>
 
-        
-   
+    <div class="albumHeaderDiv"> 
+        <b class="albumOneHeader">Album three</b>
+        <textarea class="albumTextInput" rows="6" cols="50" placeholder="About this album"></textarea> <br />
+    </div>
 
-   
+    <p>
+      <input
+        type="file"
+        accept="image/*"
+        name="image"
+        id="file"
+        onchange="loadFile(event)"
+        style="display: none"
+        multiple
+      />
+    </p>
+    <button>
+      <label for="file" style="cursor: pointer">Upload to Album three</label>
+    </button>
+    <div id="output"></div>
+
+    <div class="borderDiv"></div>
+    
+
     <footer>
-        <div>
-            <a class="album_link" href="">www.familjealbum.se</a>
-        </div>
-        <div>
-            <button class="premium_btn">Köp premium</button>
-
-        </div>
+      <div>
+        <a class="album_link" href="">www.familjealbum.se</a>
+      </div>
+      <div>
+        <button class="premium_btn">Köp premium</button>
+      </div>
     </footer>
- <script src="index.js" defer></script>
-
-</body>
-
+    <script src="index.js" defer></script>
+  </body>
 </html>
