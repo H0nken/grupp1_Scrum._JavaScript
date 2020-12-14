@@ -80,3 +80,4 @@ var loadFile = function (event) {
     output.appendChild(img);
   });
 };
+
