@@ -62,7 +62,7 @@ btnAlbumTwo2.onclick = function () {
   console.log(imagesOfAlbum2[1]);
 };
 btnAlbumTwo3.onclick = function () {
-  console.log(imagesOfAlbum2[2]); 
+  console.log(imagesOfAlbum2[2]);
 };
 btnAlbumTwo4.onclick = function () {
   console.log(imagesOfAlbum2[3]);
@@ -80,3 +80,4 @@ var loadFile = function (event) {
     output.appendChild(img);
   });
 };
+
