@@ -1,3 +1,20 @@
+header h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 70px;
+}
+
+header img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .photos1, .photos2, .photos3 {
   display: flex;
   flex-direction: row;
@@ -5,34 +22,27 @@
   width: 100%;
 }
 
-body img {
+.albumOne img, .albumTwo img, .albumThree img {
   height: 320px;
-  width: 320px;
+  width: 17%;
   object-fit: cover;
   margin: 50px 0 0 2%;
 }
 
-body img:active {
-  position: absolute;
-  display: block;
-  height: 640px;
+.albumOne img:active, .albumTwo img:active, .albumThree img:active {
+  position: fixed;
+  height: 70%;
   width: auto;
-  top: 0;
-  flex-direction: initial;
-  right: auto;
-  left: auto;
+  left: 50%;
+  transform: translate(-50%);
+  top: 10%;
+  margin: 0;
 }
 
 body {
   background-color: #f5d9df;
   font-family: "Nunito", sans-serif;
-}
-
-h1 {
-  text-align: center;
-  color: white;
-  font-weight: 100;
-  font-size: 40px;
+  margin: 0;
 }
 
 footer {
