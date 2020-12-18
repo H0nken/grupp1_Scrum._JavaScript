@@ -1,34 +1,38 @@
-.photos1,
-.photos2,
-.photos3 {
+.photos1, .photos2, .photos3 {
   display: flex;
   flex-direction: row;
   height: 700px;
   width: 100%;
-  
-  
 }
 
 body img {
-  height: 640px;
+  height: 320px;
   width: 320px;
   object-fit: cover;
   margin: 50px 0 0 2%;
 }
 
-body img:hover {
+body img:active {
+  position: absolute;
+  display: block;
+  height: 640px;
   width: auto;
+  top: 0;
+  flex-direction: initial;
+  right: auto;
+  left: auto;
 }
 
 body {
   background-color: #f5d9df;
   font-family: "Nunito", sans-serif;
 }
+
 h1 {
   text-align: center;
   color: white;
   font-weight: 100;
-  font-size: 75px;
+  font-size: 40px;
 }
 
 footer {
@@ -41,6 +45,7 @@ footer {
   margin-right: -9px;
   padding-bottom: 10px;
 }
+
 .album_link {
   color: white;
   background-color: transparent;
@@ -59,6 +64,7 @@ footer {
   background-color: lavenderblush;
   border-radius: 8px;
 }
+
 .premium_btn:hover {
   color: #4e241b;
 }
@@ -66,84 +72,4 @@ footer {
 .btnRemoveOne:hover {
   background-color: #f44336;
   color: white;
-}
-.btnRemoveOne{
-  border-radius: 7px;
-  padding: 6px 40px;
-  text-align: center;
-  font-size: 16px;
-  background-color: rgb(250, 246, 247);
-  color: rgb(66, 64, 64);
-  border: 1px solid rgb(15, 14, 14);
-  font-family: "Monaco";
-}
-
-#uploadOne:hover{
-
-  background-color: rgb(148, 137, 137); 
-  color: rgb(53, 49, 53);
-  transition-duration: 0.4s;
-
-  border-radius: 7px;
-}
-#uploadOne{
-  border-radius: 7px;
-  padding: 11px 22px;
-  text-align: center;
-  font-size: 19px;
-  background-color: rgb(248, 248, 250);
-  color: rgb(129, 113, 121);
-  border: 1px solid rgb(114, 105, 105);
-  font-family: "Monaco";
-  
-}
-
-
-.albumOneHeader{
-  color: white;
-  font-weight: 100;
-  font-size: 50px;
-
-}
-
-
-
-
-
-
-.borderDiv{
-  width: 100%;
-  height: 2px;
-  background-color: rgb(73, 69, 69);
-}
-
-.albumHeaderDiv{
-  width: 100%;
-  height: 170px;
-  background-color: rgb(218, 205, 218);
-}
-
-#myFileInput {
-  
-  border: 1px solid #ccc;
-  display: inline-block;
-  padding: 5px;
-  cursor: pointer;
-
-}
-
-.albumTextInput{
-  position: absolute;
-  right: 20px;
-  margin-top:13px;
-  padding: 25px;
-  
-  
-}
-
-/*
-#myFileInput {
-  width: 50;
-  height: 300px;
-  border-style: dotted;
 }
