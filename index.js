@@ -81,4 +81,13 @@ var loadFile = function (event) {
 
 
 };
-
+var loadFile = function (event) {
+  const imagePreview = Array.from(event.target.files);
+  var output = document.getElementById('output');
+  imagePreview.forEach((image) => {
+    const img = document.createElement('img');
+    img.src = URL.createObjectURL(image);
+    img.height = 100;
+    output.appendChild(img);
+  });
+};
