@@ -70,17 +70,7 @@ btnAlbumTwo4.onclick = function () {
 btnAlbumTwo5.onclick = function () {
   console.log(imagesOfAlbum2[4]);
 };
-var loadFile = function (event) {
-  const imagePreview = Array.from(event.target.files);
-  var output = document.getElementById('output');
-  imagePreview.forEach((image) => {
-    const img = document.createElement('img');
-    img.src = URL.createObjectURL(image);
-    img.height = 100;
-    output.appendChild(img);
 
-
-};
 var loadFile = function (event) {
   const imagePreview = Array.from(event.target.files);
   var output = document.getElementById('output');
