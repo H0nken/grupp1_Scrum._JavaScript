@@ -54,23 +54,6 @@ btnUpload.onclick = function () {
   location.reload();
 };
 
-//buttons for album two
-btnAlbumTwo1.onclick = function () {
-  console.log(imagesOfAlbum2[0]);
-};
-btnAlbumTwo2.onclick = function () {
-  console.log(imagesOfAlbum2[1]);
-};
-btnAlbumTwo3.onclick = function () {
-  console.log(imagesOfAlbum2[2]);
-};
-btnAlbumTwo4.onclick = function () {
-  console.log(imagesOfAlbum2[3]);
-};
-btnAlbumTwo5.onclick = function () {
-  console.log(imagesOfAlbum2[4]);
-};
-
 var loadFile = function (event) {
   const imagePreview = Array.from(event.target.files);
   var output = document.getElementById('output');
