@@ -78,5 +78,7 @@ var loadFile = function (event) {
     img.src = URL.createObjectURL(image);
     img.height = 100;
     output.appendChild(img);
-  });
+
+
 };
+

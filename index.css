@@ -1,34 +1,48 @@
-.photos1,
-.photos2,
-.photos3 {
+header h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 70px;
+}
+
+header img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.photos1, .photos2, .photos3 {
   display: flex;
   flex-direction: row;
   height: 700px;
   width: 100%;
-  
-  
 }
 
-body img {
-  height: 640px;
-  width: 320px;
+.albumOne img, .albumTwo img, .albumThree img {
+  height: 320px;
+  width: 17%;
   object-fit: cover;
   margin: 50px 0 0 2%;
 }
 
-body img:hover {
+.albumOne img:active, .albumTwo img:active, .albumThree img:active {
+  position: fixed;
+  height: 70%;
   width: auto;
+  left: 50%;
+  transform: translate(-50%);
+  top: 10%;
+  margin: 0;
 }
 
 body {
   background-color: #f5d9df;
   font-family: "Nunito", sans-serif;
-}
-h1 {
-  text-align: center;
-  color: white;
-  font-weight: 100;
-  font-size: 75px;
+  margin: 0;
 }
 
 footer {
@@ -41,6 +55,7 @@ footer {
   margin-right: -9px;
   padding-bottom: 10px;
 }
+
 .album_link {
   color: white;
   background-color: transparent;
@@ -59,6 +74,7 @@ footer {
   background-color: lavenderblush;
   border-radius: 8px;
 }
+
 .premium_btn:hover {
   color: #4e241b;
 }
@@ -67,6 +83,7 @@ footer {
   background-color: #f44336;
   color: white;
 }
+
 .btnRemoveOne{
   border-radius: 7px;
   padding: 6px 40px;
@@ -79,13 +96,12 @@ footer {
 }
 
 #uploadOne:hover{
-
   background-color: rgb(148, 137, 137); 
   color: rgb(53, 49, 53);
   transition-duration: 0.4s;
-
   border-radius: 7px;
 }
+
 #uploadOne{
   border-radius: 7px;
   padding: 11px 22px;
@@ -95,7 +111,6 @@ footer {
   color: rgb(129, 113, 121);
   border: 1px solid rgb(114, 105, 105);
   font-family: "Monaco";
-  
 }
 
 
@@ -103,13 +118,7 @@ footer {
   color: white;
   font-weight: 100;
   font-size: 50px;
-
 }
-
-
-
-
-
 
 .borderDiv{
   width: 100%;
@@ -124,12 +133,10 @@ footer {
 }
 
 #myFileInput {
-  
   border: 1px solid #ccc;
   display: inline-block;
   padding: 5px;
   cursor: pointer;
-
 }
 
 .albumTextInput{
@@ -137,8 +144,6 @@ footer {
   right: 20px;
   margin-top:13px;
   padding: 25px;
-  
-  
 }
 
 /*
