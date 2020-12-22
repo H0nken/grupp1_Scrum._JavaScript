@@ -15,21 +15,24 @@ header img {
   object-fit: cover;
 }
 
-.photos1, .photos2, .photos3 {
+.photos1,
+.photos2 {
   display: flex;
   flex-direction: row;
   height: 700px;
   width: 100%;
 }
 
-.albumOne img, .albumTwo img, .albumThree img {
+.albumOne img,
+.albumTwo img {
   height: 320px;
   width: 17%;
   object-fit: cover;
   margin: 50px 0 0 2%;
 }
 
-.albumOne img:active, .albumTwo img:active, .albumThree img:active {
+.albumOne img:active,
+.albumTwo img:active {
   position: fixed;
   height: 70%;
   width: auto;
@@ -84,7 +87,7 @@ footer {
   color: white;
 }
 
-.btnRemoveOne{
+.btnRemoveOne {
   border-radius: 7px;
   padding: 6px 40px;
   text-align: center;
@@ -95,14 +98,14 @@ footer {
   font-family: "Monaco";
 }
 
-#uploadOne:hover{
-  background-color: rgb(148, 137, 137); 
+#uploadOne:hover {
+  background-color: rgb(148, 137, 137);
   color: rgb(53, 49, 53);
   transition-duration: 0.4s;
   border-radius: 7px;
 }
 
-#uploadOne{
+#uploadOne {
   border-radius: 7px;
   padding: 11px 22px;
   text-align: center;
@@ -113,20 +116,19 @@ footer {
   font-family: "Monaco";
 }
 
-
-.albumOneHeader{
+.albumOneHeader {
   color: white;
   font-weight: 100;
   font-size: 50px;
 }
 
-.borderDiv{
+.borderDiv {
   width: 100%;
   height: 2px;
   background-color: rgb(73, 69, 69);
 }
 
-.albumHeaderDiv{
+.albumHeaderDiv {
   width: 100%;
   height: 170px;
   background-color: rgb(218, 205, 218);
@@ -139,16 +141,13 @@ footer {
   cursor: pointer;
 }
 
-.albumTextInput{
+.albumTextInput {
   position: absolute;
   right: 20px;
-  margin-top:13px;
+  margin-top: 13px;
   padding: 25px;
 }
 
-/*
-#myFileInput {
-  width: 50;
-  height: 300px;
-  border-style: dotted;
+.albumOneHeader {
+  padding-left: 20px;
 }

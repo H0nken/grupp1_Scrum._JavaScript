@@ -1,12 +1,7 @@
 let btnRemoveAlbumOne = document.getElementById('btnRemoveAlbumOne');
 let btnUpload = document.getElementById('uploadOne');
 
-//buttons for all images in album 2
-let btnAlbumTwo1 = document.getElementById('button2.1');
-let btnAlbumTwo2 = document.getElementById('button2.2');
-let btnAlbumTwo3 = document.getElementById('button2.3');
-let btnAlbumTwo4 = document.getElementById('button2.4');
-let btnAlbumTwo5 = document.getElementById('button2.5');
+
 
 //ref to all images
 let imagesOfAlbum2 = document.getElementsByClassName('albumTwo');
@@ -37,13 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
     photos.appendChild(elem);
   }
 });
-
-//setKeys();
-
-//btnRemove1.onclick = function(){
-//localStorage.removeItem(1);
-//här efter ska inte index 1 bli null!
-//}
 
 btnRemoveAlbumOne.onclick = function () {
   localStorage.clear();
