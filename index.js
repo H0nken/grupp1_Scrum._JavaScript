@@ -2,6 +2,7 @@ let btnRemoveAlbumOne = document.getElementById('btnRemoveAlbumOne');
 //button for upload album one (refresh browser)
 let btnUpload = document.getElementById('uploadOne');
 
+
 //ref to all images
 let imagesOfAlbum2 = document.getElementsByClassName('albumTwo');
 
