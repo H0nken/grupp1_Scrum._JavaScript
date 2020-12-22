@@ -16,7 +16,8 @@ header img {
 }
 
 .photos1,
-.photos2 {
+.photos2,
+.photos3 {
   display: flex;
   flex-direction: row;
   height: 700px;
@@ -24,7 +25,8 @@ header img {
 }
 
 .albumOne img,
-.albumTwo img {
+.albumTwo img,
+.albumThree img {
   height: 320px;
   width: 17%;
   object-fit: cover;
@@ -32,7 +34,8 @@ header img {
 }
 
 .albumOne img:active,
-.albumTwo img:active {
+.albumTwo img:active,
+.albumThree img:active {
   position: fixed;
   height: 70%;
   width: auto;
@@ -51,8 +54,9 @@ body {
 footer {
   border: 2px solid black;
   text-align: center;
-  margin-top: 800px;
-  padding-top: 30px;
+  height: 150px;
+  margin-top: 100px;
+  padding: 100px;
   background-color: #282d33;
   margin-left: -8px;
   margin-right: -9px;
@@ -150,4 +154,30 @@ footer {
 
 .albumOneHeader {
   padding-left: 20px;
+}
+/* #myFileInput {
+  width: 50;
+  height: 300px;
+  border-style: dotted;
+} */
+
+#cam {
+  font-size: 50px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#copy {
+  font-size: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#visa {
+  font-size: 25px;
 }

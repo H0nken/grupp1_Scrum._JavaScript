@@ -1,4 +1,5 @@
 let btnRemoveAlbumOne = document.getElementById('btnRemoveAlbumOne');
+//button for upload album one (refresh browser)
 let btnUpload = document.getElementById('uploadOne');
 
 
@@ -25,23 +26,25 @@ document.addEventListener('DOMContentLoaded', () => {
   for (let i = 0; i < localStorage.length; i++) {
     //console.log("Bild" +localStorage.getItem(i));
   }
-  //create new elem-section in HTML and save the image there
+  //create new elem-section, get image from local storage and save it in DOM
   for (let i = 0; i < localStorage.length; i++) {
     let elem = document.createElement('img');
     elem.setAttribute('src', localStorage.getItem(i));
     photos.appendChild(elem);
   }
 });
-
+//clear local storage and refresh browser
 btnRemoveAlbumOne.onclick = function () {
   localStorage.clear();
   location.reload();
 };
 
+//refresh browser
 btnUpload.onclick = function () {
   location.reload();
 };
 
+//upload and "save" image in album two
 var loadFile = function (event) {
   const imagePreview = Array.from(event.target.files);
   var output = document.getElementById('output');
