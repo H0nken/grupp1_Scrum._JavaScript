@@ -16,8 +16,7 @@ header img {
 }
 
 .photos1,
-.photos2,
-.photos3 {
+.photos2 {
   display: flex;
   flex-direction: row;
   height: 700px;
@@ -25,8 +24,7 @@ header img {
 }
 
 .albumOne img,
-.albumTwo img,
-.albumThree img {
+.albumTwo img {
   height: 320px;
   width: 17%;
   object-fit: cover;
@@ -34,8 +32,7 @@ header img {
 }
 
 .albumOne img:active,
-.albumTwo img:active,
-.albumThree img:active {
+.albumTwo img:active {
   position: fixed;
   height: 70%;
   width: auto;

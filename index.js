@@ -3,12 +3,10 @@ let btnRemoveAlbumOne = document.getElementById('btnRemoveAlbumOne');
 let btnUpload = document.getElementById('uploadOne');
 
 
-
 //ref to all images
 let imagesOfAlbum2 = document.getElementsByClassName('albumTwo');
 
 //file-input
-
 document.querySelector('#myFileInput').addEventListener('change', function () {
   //this will convert file to dataURL
   const reader = new FileReader();
@@ -33,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     photos.appendChild(elem);
   }
 });
+
 //clear local storage and refresh browser
 btnRemoveAlbumOne.onclick = function () {
   localStorage.clear();
