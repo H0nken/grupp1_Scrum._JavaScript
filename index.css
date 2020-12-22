@@ -152,11 +152,9 @@ footer {
   padding: 25px;
 }
 
-/* #myFileInput {
-  width: 50;
-  height: 300px;
-  border-style: dotted;
-} */
+.albumOneHeader {
+  padding-left: 20px;
+}
 
 #cam {
   font-size: 50px;
